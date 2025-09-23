@@ -8,17 +8,17 @@
 ## 📋 Development Guidelines
 
 ### 🏗️ Coding Principles
-**Reference:** `./vendor/hypecodteam/ai-rules/coding_principles.md`  
+**Reference:** `./vendor/hypecodteam/backend-ai-rules/rules/coding_principles.md`  
 
 ### 🧪 Unit Testing Standards
-**Reference:** `.rules/unit_testing.md`
+**Reference:** `./vendor/hypecodteam/backend-ai-rules/rules/unit_testing.md`
 
 ### 📝 Git Commit Convention
-**Reference:** `.rules/git_commit_guideline.md`  
+**Reference:** `./vendor/hypecodteam/backend-ai-rules/rules/git_commit_guideline.md`  
 
 
 ### 🗣️ Domain Language
-**Reference:** `.rules/ubiquitous_language.md`
+**Reference:** `./vendor/hypecodteam/backend-ai-rules/rules/ubiquitous_language.md`
 
 ## 🤖 AI/LLM Integration
 
@@ -26,11 +26,11 @@
 
 **CRITICAL: Before EVERY code proposal, the AI MUST imperatively:**
 
-1. **Read and apply** `.rules/repository_service_patterns.md` (controller/service logic, constants, OrThrow patterns)
-2. **Read and apply** `.rules/coding_principles.md` (PHP 8 patterns, Yoda conditions, defensive programming)
-3. **Read and apply** `.rules/ubiquitous_language.md` (domain language terms and relations)
-4. **Read and apply** `.rules/unit_testing.md` (Prophecy, AAA pattern, isolated tests)
-5. **Read and apply** `.rules/git_commit_guideline.md` (commit message format)
+1. **Read and apply** `./vendor/hypecodteam/backend-ai-rules/rules/repository_service_patterns.md` (controller/service logic, constants, OrThrow patterns)
+2. **Read and apply** `./vendor/hypecodteam/backend-ai-rules/rules/coding_principles.md` (PHP 8 patterns, Yoda conditions, defensive programming)
+3. **Read and apply** `./vendor/hypecodteam/backend-ai-rules/rules/ubiquitous_language.md` (domain language terms and relations)
+4. **Read and apply** `./vendor/hypecodteam/backend-ai-rules/rules/unit_testing.md` (Prophecy, AAA pattern, isolated tests)
+5. **Read and apply** `./vendor/hypecodteam/backend-ai-rules/rules/git_commit_guideline.md` (commit message format)
 6. **Explicitly verify compliance** before responding
 
 **WITHOUT EXCEPTION:**
@@ -56,13 +56,13 @@
 
 | When to Use | Pattern | Reference |
 |-------------|---------|-----------|
-| New feature | feat(scope): add... | `.rules/git_commit_guideline.md` |
-| Bug fix | fix(scope): correct... | `.rules/git_commit_guideline.md` |
-| Business logic | Service method | `.rules/repository_service_patterns.md` |
-| Data access | Repository OrThrow | `.rules/repository_service_patterns.md` |
-| Controller input | Deserialize RequestDto + validate | `.rules/repository_service_patterns.md` |
-| Entity validation | Rich model methods | `.rules/coding_principles.md` |
-| Test setup | ProphecyTrait + setUp() | `.rules/unit_testing.md` |
+| New feature | feat(scope): add... | `./vendor/hypecodteam/backend-ai-rules/rules/git_commit_guideline.md` |
+| Bug fix | fix(scope): correct... | `./vendor/hypecodteam/backend-ai-rules/rules/git_commit_guideline.md` |
+| Business logic | Service method | `./vendor/hypecodteam/backend-ai-rules/rules/repository_service_patterns.md` |
+| Data access | Repository OrThrow | `./vendor/hypecodteam/backend-ai-rules/rules/repository_service_patterns.md` |
+| Controller input | Deserialize RequestDto + validate | `./vendor/hypecodteam/backend-ai-rules/rules/repository_service_patterns.md` |
+| Entity validation | Rich model methods | `./vendor/hypecodteam/backend-ai-rules/rules/coding_principles.md` |
+| Test setup | ProphecyTrait + setUp() | `./vendor/hypecodteam/backend-ai-rules/rules/unit_testing.md` |
 
 ### AI Usage Guidelines
 - **Always reference specific rules** when asking for code changes

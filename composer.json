@@ -1,7 +1,8 @@
 {
-    "name": "hypecodeteam/backend-ai-rules",
+    "name": "hypecodeteam/backend-backend-ai-rules",
     "description": "AI coding assistant rules and guidelines for Symfony projects",
     "type": "symfony-bundle",
+    "license": "MIT",
     "require": {
         "php": ">=8.1"
     },

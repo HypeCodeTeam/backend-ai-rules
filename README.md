@@ -1,11 +1,11 @@
-# Hypecode AI Rules
+# Hypecode Backend AI Rules
 
 AI coding assistant rules and guidelines, that handles AGENTS.md, for Symfony projects.
 
 ## Installation
 
 ```bash
-composer require --dev hypecode/ai-rules
+composer require --dev hypecodeteam/backend-ai-rules
 ```
 
 ## What it does
@@ -17,13 +17,12 @@ This package automatically copies essential files to your Symfony project root:
 
 ## Usage
 
-After installation, the files are automatically copied to your project root via Symfony Flex recipes. No additional configuration needed.
+After installation, the files are automatically copied the AGENTS.md to the root of your project.
 
 ## Requirements
 
 - AI agent that handle AGENTS.md
 - PHP 8.1+
-- Symfony 7.1+
 
 ## License
 
