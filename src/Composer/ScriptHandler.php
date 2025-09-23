@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace HypeCodeTeam\AiRules\Composer;
+namespace HypeCodeTeam\BackendAiRules\Composer;
 
 use Composer\Script\Event;
 use Symfony\Component\Filesystem\Filesystem;

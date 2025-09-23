@@ -1,5 +1,5 @@
 {
-    "name": "hypecodeteam/ai-rules",
+    "name": "hypecodeteam/backend-ai-rules",
     "description": "AI coding assistant rules and guidelines for Symfony projects",
     "type": "symfony-bundle",
     "require": {
@@ -7,7 +7,7 @@
     },
     "autoload": {
         "psr-4": {
-            "HypeCodeTeam\\AiRules\\": "src/"
+            "HypeCodeTeam\\BackendAiRules\\": "src/"
         }
     },
     "include-path": [
