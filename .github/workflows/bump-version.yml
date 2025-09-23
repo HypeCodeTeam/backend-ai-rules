@@ -1,0 +1,14 @@
+name: BUMP VERSION
+on:
+    push:
+        branches:
+            - main
+
+jobs:
+    bump-version:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - uses: hypecodeteam/reusable-workflows/.github/actions/common/bump-version@v2.0.3
+              with:
+                  token: ${{ secrets.GH_PACKAGES_PAT }}
