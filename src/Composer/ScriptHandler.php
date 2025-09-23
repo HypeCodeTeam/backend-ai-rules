@@ -22,8 +22,11 @@ class ScriptHandler
         $source = sprintf('%s/%s', $vendorDir . self::PACKAGE_DIRECTORY, self::AGENTS_FILE);
         $target = getcwd() . '/'. self::AGENTS_FILE;
 
-        $filesystem->copy($source, $target, true);
-
-        $event->getIO()->write('AGENTS.md copied to root directory.');
+        $message = 'AGENTS.md already exists.';
+        if (!file_exists($target)) {
+            $filesystem->copy($source, $target, true);
+            $message = 'AGENTS.md copied to root directory.';
+        }
+        $event->getIO()->write($message);
     }
 }
