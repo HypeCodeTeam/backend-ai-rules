@@ -5,6 +5,7 @@ AI coding assistant rules and guidelines, that handles AGENTS.md, for Symfony pr
 ## What it does
 
 This package automatically copies **`AGENTS.md`**  file to your project root, that contains links to all the rules and guidelines for AI coding assistants
+Don't hesitate to modify the file to fit your needs.
 
 ## Requirements
 
@@ -13,26 +14,24 @@ This package automatically copies **`AGENTS.md`**  file to your project root, th
 
 ## Installation
 
-Add the following to your `composer.json` scripts section:
+- Add the following to your `composer.json` scripts section:
 ```json
 {
     "scripts": {
         "copy-agents": "HypeCodeTeam\\BackendAiRules\\Composer\\ScriptHandler::copyAgents",
-        "post-install-cmd": [
-            "[ $COMPOSER_DEV_MODE -eq 0 ] || composer run-script copy-agents",
-            ...,
-        ],
-        "post-update-cmd": [
-            "[ $COMPOSER_DEV_MODE -eq 0 ] || composer run-script copy-agents",
-            ...,
-        ]
+        ...
     }
 }
 ```
 
-Then run
+- then add the package to your project
 ```bash
 composer require --dev hypecodeteam/backend-ai-rules
+```
+
+- finally execute the composer script
+```bash
+composer run-script copy-agents
 ```
 
 ## License

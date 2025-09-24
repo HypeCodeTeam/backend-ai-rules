@@ -16,9 +16,9 @@
 ### 📝 Git Commit Convention
 **Reference:** `./vendor/hypecodteam/backend-ai-rules/rules/git_commit_guideline.md`  
 
-
-### 🗣️ Domain Language
-**Reference:** `./vendor/hypecodteam/backend-ai-rules/rules/ubiquitous_language.md`
+<!-- If you need to use domain language, uncomment these 2 lines below, then create and fill the file you need with your domain rules-->
+<!-- ### 🗣️ Domain Language -->
+<!-- **Reference:** `.rules/ubiquitous_language.md` -->
 
 ## 🤖 AI/LLM Integration
 
@@ -28,10 +28,11 @@
 
 1. **Read and apply** `./vendor/hypecodteam/backend-ai-rules/rules/repository_service_patterns.md` (controller/service logic, constants, OrThrow patterns)
 2. **Read and apply** `./vendor/hypecodteam/backend-ai-rules/rules/coding_principles.md` (PHP 8 patterns, Yoda conditions, defensive programming)
-3. **Read and apply** `./vendor/hypecodteam/backend-ai-rules/rules/ubiquitous_language.md` (domain language terms and relations)
-4. **Read and apply** `./vendor/hypecodteam/backend-ai-rules/rules/unit_testing.md` (Prophecy, AAA pattern, isolated tests)
-5. **Read and apply** `./vendor/hypecodteam/backend-ai-rules/rules/git_commit_guideline.md` (commit message format)
-6. **Explicitly verify compliance** before responding
+3.  **Read and apply** `./vendor/hypecodteam/backend-ai-rules/rules/unit_testing.md` (Prophecy, AAA pattern, isolated tests)
+4. **Read and apply** `./vendor/hypecodteam/backend-ai-rules/rules/git_commit_guideline.md` (commit message format)
+<!-- Uncomment the line below if you need to use domain language -->
+<!-- 5. **Read and apply** `./vendor/hypecodteam/backend-ai-rules/rules/ubiquitous_language.md` (domain language terms and relations) -->
+- **Explicitly verify compliance** before responding
 
 **WITHOUT EXCEPTION:**
 - ❌ No business logic in controllers
@@ -66,7 +67,7 @@
 
 ### AI Usage Guidelines
 - **Always reference specific rules** when asking for code changes
-- **Provide context** from ubiquitous language for domain-specific features
 - **Request examples** from existing codebase patterns
 - **Specify testing requirements** using unit testing standards
 - **Use consistent terminology** from domain language section
+- **Provide context** from ubiquitous language for domain-specific features
