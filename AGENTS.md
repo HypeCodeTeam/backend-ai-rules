@@ -14,7 +14,7 @@
 **Reference:** `./vendor/hypecodeteam/backend-ai-rules/rules/unit_testing.md`
 
 ### 📝 Git Commit Convention
-**Reference:** `./vendor/hypecodeteam/backend-ai-rules/rules/git_commit_guideline.md`  
+**Reference:** `./vendor/hypecodeteam/backend-ai-rules/rules/git_workflow_guideline.md`  
 
 <!-- If you need to use domain language, uncomment these 2 lines below, then create and fill the file you need with your domain rules-->
 <!-- ### 🗣️ Domain Language -->
@@ -29,10 +29,11 @@
 1. **Read and apply** `./vendor/hypecodeteam/backend-ai-rules/rules/repository_service_patterns.md` (controller/service logic, constants, OrThrow patterns)
 2. **Read and apply** `./vendor/hypecodeteam/backend-ai-rules/rules/coding_principles.md` (PHP 8 patterns, Yoda conditions, defensive programming)
 3.  **Read and apply** `./vendor/hypecodeteam/backend-ai-rules/rules/unit_testing.md` (Prophecy, AAA pattern, isolated tests)
-4. **Read and apply** `./vendor/hypecodeteam/backend-ai-rules/rules/git_commit_guideline.md` (commit message format)
+4. **Read and apply** `./vendor/hypecodeteam/backend-ai-rules/rules/git_workflow_guideline.md` (commit message format)
 <!-- Uncomment the line below if you need to use domain language -->
 <!-- 5. **Read and apply** `./.rules/ubiquitous_language.md` (domain language terms and relations) -->
 - **Explicitly verify compliance** before responding
+- **Display in a bullet point the rules that have been read and loaded in the first answer**
 
 **WITHOUT EXCEPTION:**
 - ❌ No business logic in controllers
