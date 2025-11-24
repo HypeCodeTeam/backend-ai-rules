@@ -3,18 +3,19 @@
 ## 🔒 Security Rules
 - **NEVER** read or edit `.env.local` files
 - **NEVER** expose or log secrets/API keys
+- **NEVER** execute database migrations (`doctrine:migrations:migrate`)
 - **ALWAYS** follow security best practices
 
 ## 📋 Development Guidelines
 
 ### 🏗️ Coding Principles
-**Reference:** `./vendor/hypecodeteam/backend-ai-rules/rules/coding_principles.md`  
+**Reference:** `./vendor/hypecodeteam/backend-ai-rules/rules/coding_principles.md`
 
 ### 🧪 Unit Testing Standards
 **Reference:** `./vendor/hypecodeteam/backend-ai-rules/rules/unit_testing.md`
 
 ### 📝 Git Commit Convention
-**Reference:** `./vendor/hypecodeteam/backend-ai-rules/rules/git_workflow_guideline.md`  
+**Reference:** `./vendor/hypecodeteam/backend-ai-rules/rules/git_workflow_guideline.md`
 
 <!-- If you need to use domain language, uncomment these 2 lines below, then create and fill the file you need with your domain rules-->
 <!-- ### 🗣️ Domain Language -->
